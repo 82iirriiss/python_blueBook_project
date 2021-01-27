@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}loged_out.html{% endblock title %}
+
+{% block content %}
+<h1>Logged out</h1>
+<br>
+<div>
+    <i class="fas fa-quote-left"></i>
+    <span class="h6">&ensp;Thanks for spending your quality time with this web site today.&ensp;</span>
+    <i class="fas fa-quote-right"></i>
+</div>
+
+<p class="font-italic"><a href="{% url 'login' %}">Log in</a></p>
+{% endblock content %}
